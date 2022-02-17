@@ -1,0 +1,100 @@
+C:\Users\varshitha.r\PycharmProjects\pythontask\venv\Scripts\python.exe C:/Users/varshitha.r/PycharmProjects/pythontask/final_asse.py
+create student table 
+================================================
+Agent details:
+(1001, 'varsha', 'karnataka')
+(1002, 'nayaan', 'karnataka')
+(1003, 'urmila', 'andra')
+(1004, 'lakshmi', 'andra')
+(1005, 'priya', 'tamilnadu')
+
+The SQLite connection is closed.
+======================================================
+
+insert operation 
+======================================================
+
+5
+======================================================
+
+
+Number of records after inserting rows:
+======================================================
+
+10
+
+The SQLite connection is closed.
+======================================================
+
+update operation
+======================================================
+
+before update details:
+======================================================
+
+(1001, 'varsha', 'karnataka')
+(1002, 'nayaan', 'karnataka')
+(1003, 'urmila', 'andra')
+(1004, 'lakshmi', 'andra')
+(1005, 'priya', 'tamilnadu')
+(1006, 'James Hoog', 'New York')
+(1007, 'Nail Knite', 'Paris')
+(1008, 'Pit Alex', 'London')
+(1009, 'Mc Lyon', 'Paris')
+(1010, 'Paul Adam', 'Rome')
+
+Update student_id 1001 to 1003 where id is 1005:
+======================================================
+
+Record Updated successfully 
+======================================================
+
+
+After updating student  details:
+======================================================
+
+(1001, 'varsha', 'karnataka')
+(1002, 'nayaan', 'karnataka')
+(1001, 'urmila', 'andra')
+(1004, 'lakshmi', 'andra')
+(1005, 'priya', 'tamilnadu')
+(1006, 'James Hoog', 'New York')
+(1007, 'Nail Knite', 'Paris')
+(1008, 'Pit Alex', 'London')
+(1009, 'Mc Lyon', 'Paris')
+(1010, 'Paul Adam', 'Rome')
+
+The SQLite connection is closed.
+======================================================
+
+delete operation
+======================================================
+
+details:
+(1001, 'varsha', 'karnataka')
+(1002, 'nayaan', 'karnataka')
+(1001, 'urmila', 'andra')
+(1004, 'lakshmi', 'andra')
+(1005, 'priya', 'tamilnadu')
+(1006, 'James Hoog', 'New York')
+(1007, 'Nail Knite', 'Paris')
+(1008, 'Pit Alex', 'London')
+(1009, 'Mc Lyon', 'Paris')
+(1010, 'Paul Adam', 'Rome')
+
+ Delete student_id 105:
+
+ after delete details:
+(1001, 'varsha', 'karnataka')
+(1002, 'nayaan', 'karnataka')
+(1001, 'urmila', 'andra')
+(1004, 'lakshmi', 'andra')
+(1006, 'James Hoog', 'New York')
+(1007, 'Nail Knite', 'Paris')
+(1008, 'Pit Alex', 'London')
+(1009, 'Mc Lyon', 'Paris')
+(1010, 'Paul Adam', 'Rome')
+
+The SQLite connection is closed.
+
+Process finished with exit code 0
